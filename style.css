@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    background-color: black;
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    text-align: center;
+}
+div ul li{
+    display:inline-block;
+    padding: 20px 35px;
+    background-color: violet;
+    margin: 50px;
+    font: 1em sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+} 
+
+
+p{
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+
+}
+p::first-letter{
+    font-size: 50px;
+    
+}
+p mark{
+    color: violet;
+}
+.support{
+    text-transform: capitalize;
+    color: violet;
+}
+.support2{
+    text-align: center;
+    text-transform: capitalize;
+    color:white;
+    background-color:blue;
+    padding: 20px 22px;
+    font-size: 25px;
+    
+}
